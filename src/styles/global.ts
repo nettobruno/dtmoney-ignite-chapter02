@@ -30,7 +30,7 @@ export const GlobalStyle = createGlobalStyle`
     @media (max-width: 720px) {
       font-size: 87.5%; // é igual a 14px
     }
-  }
+  }           
 
   body {
     background: var(--background);

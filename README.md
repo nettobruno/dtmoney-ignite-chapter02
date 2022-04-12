@@ -21,14 +21,12 @@
 
 <p>Ele aborda diversas coisa interessantes, como por exemplo, forma de estruturar o projeto, conceitos importantes do React, boas práticas de desenvolvimento, entre outros diversos conhecimentos que adquiri durante este módulo.</p>
 
-<p>Fiz algumas modificações no layout para aprimorar alguns conceitos, e para ver se realmente entendi cada parte do projeto.
+<p>Fiz algumas modificações no layout para aprimorar alguns conceitos, e para ver se realmente entendi cada parte do projeto.</p>
 
 
 <br>
 
-
-<h1 align="center"></h1>
-
+	
 <h2>🤓 Como rodar o Projeto?</h2>
 
 <p>Antes de tudo, é necessário ter instalado em sua máquina os seguintes programas:</p>

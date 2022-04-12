@@ -1,10 +1,14 @@
 import { Container } from "./styles";
 import { useTheme } from "../../hooks/useTheme";
+import useSound from 'use-sound';
+import switchSound from '../../assets/switch.mp3';
 
 export function ToggleSwitchTheme() {
   const { toggleTheme, theme } = useTheme();
+  const [play] = useSound(switchSound);
 
   const handleToggleTheme = () => {
+    play();
     toggleTheme();
   };
 

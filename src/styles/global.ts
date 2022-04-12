@@ -36,7 +36,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background: ${(props) => props.theme.colors.background};
-    transition: all 0.3s linear;
+    transition: all 0.5s linear;
     -webkit-font-smoothing: antialiased; 
   }
 

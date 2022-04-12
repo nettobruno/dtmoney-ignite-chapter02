@@ -106,7 +106,7 @@
 
 
 <h2>Autor</h2>
----
+
 
 <a href="https://www.linkedin.com/in/bruno-netto-77434b187/">
  <img src="https://avatars.githubusercontent.com/u/38847034?v=4" width="200px;" alt="Bruno Netto"/>

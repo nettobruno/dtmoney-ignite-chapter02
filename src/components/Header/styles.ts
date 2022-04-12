@@ -1,7 +1,7 @@
 import styled  from 'styled-components';
 
 export const Container = styled.header`
-  background: var(--blue);
+  background: ${(props) => props.theme.colors.blue};
 `;
 
 export const Content = styled.header`
@@ -15,8 +15,8 @@ export const Content = styled.header`
 
   button {
     font-size: 1rem;
-    color: var(--shape);
-    background: var(--blue-light);
+    color: ${(props) => props.theme.colors.shape};
+    background: ${(props) => props.theme.colors.green};
     border: 0;
     padding: 0 2rem;
     border-radius: 0.25rem;

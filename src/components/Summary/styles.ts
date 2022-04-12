@@ -7,10 +7,11 @@ export const Container = styled.div`
   margin-top: -10rem;
 
   div {
-    background: var(--shape);
+    background: ${(props) => props.theme.colors.shape};
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
-    color: var(--text-title);
+    color: ${(props) => props.theme.colors.textTitle};
+    transition: all .4s;
 
     header {
       display: flex;
@@ -27,8 +28,12 @@ export const Container = styled.div`
     }
 
     &.highlight-background {
-      background: var(--green);
-      color: var(--shape)
+      background: ${(props) => props.theme.colors.green};
+      color: ${(props) => props.theme.colors.shape}
     }
+  }
+
+  div:hover {
+    transform: scale(1.1);
   }
 `;

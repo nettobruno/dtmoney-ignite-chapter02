@@ -26,6 +26,14 @@ createServer({
           category: 'Moradia',
           type: 'withdraw',
           createdAt: new Date('2022-03-21 22:30:00')
+        },
+        {
+          id: 3,
+          title: 'Supermercado',
+          amount: 400.00,
+          category: 'Compras',
+          type: 'withdraw',
+          createdAt: new Date('2022-04-12 09:30:00')
         }
       ],
     });

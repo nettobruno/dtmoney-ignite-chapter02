@@ -69,6 +69,7 @@
 - [x] Criação de novos itens
 - [x] Página responsiva
 - [x] Dark Theme
+- [x] Efeito sonoro ao mudar de tema
 
 
 <br>

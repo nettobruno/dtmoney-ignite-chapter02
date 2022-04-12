@@ -3,14 +3,13 @@ import styled  from 'styled-components';
 export const Container = styled.main`
   margin-top: 4rem;
 
+  @media (max-width: 550px) {
+    overflow-x: scroll;
+  }
+
   table {
     width: 100%;
     border-spacing: 0 0.5rem;
-
-    tr {
-      border-radius: 0.25rem;
-    }
-
     th {
       color: ${(props) => props.theme.colors.textBody};
       font-weight: 400;

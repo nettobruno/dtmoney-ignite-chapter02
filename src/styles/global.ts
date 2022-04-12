@@ -29,7 +29,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     @media (max-width: 720px) {
-      font-size: 87.5%; // é igual a 14px
+      /* font-size: 87.5%; // é igual a 14px */
+      font-size: 75%; // é igual a 12px
     }
   }           
 
@@ -83,7 +84,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .react-modal-content {
-    width: 100%;
+    width: 90%;
     max-width: 576px;
     background-color: ${(props) => props.theme.colors.background};
     padding: 3rem;

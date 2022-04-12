@@ -1,8 +1,7 @@
-import React from "react";
 import { Container } from "./styles";
 import { useTheme } from "../../hooks/useTheme";
 
-const ToggleSwitch: React.FC = () => {
+export function ToggleSwitchTheme() {
   const { toggleTheme, theme } = useTheme();
 
   const handleToggleTheme = () => {
@@ -28,5 +27,3 @@ const ToggleSwitch: React.FC = () => {
     </Container>
   );
 };
-
-export default ToggleSwitch;

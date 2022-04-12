@@ -1,5 +1,5 @@
 import { Summary } from '../Summary';
-import ToggleSwitch from '../ToggleSwitch';
+import { ToggleSwitchTheme } from '../ToggleSwitchTheme';
 import { TransactionsTable } from '../TransactionsTable';
 import { Container } from './styles';
 
@@ -8,7 +8,7 @@ export function Dashboard() {
     <Container>
       <Summary />
       <TransactionsTable />
-      <ToggleSwitch />
+      <ToggleSwitchTheme />
     </Container>
   );
 }
